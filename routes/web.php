@@ -36,3 +36,8 @@ Route::get('/delete/{id}',[DbController::class,'delete'])->name('delete');
 Route::get('/staff_login',[LoginController::class,'staff_login'])->name('staff_login');
 Route::post('/stafflog',[LoginController::class,'stafflog'])->name('stafflog');
 Route::get('/staffhome',[LoginController::class,'staffhome'])->name('staffhome');
+Route::get('/staff_view',[PageController::class,'staff_view'])->name('staff_view');
+Route::get('/staff_edit/{id}',[DbController::class,'staff_edit'])->name('staff_edit');
+Route::post('/staff_update/{id}',[DbController::class,'staff_update'])->name('staff_update');
+Route::get('/deletestaff/{id}',[DbController::class,'deletestaff'])->name('deletestaff');
+Route::get('/logout',[LoginController::class,'logout'])->name('logout');

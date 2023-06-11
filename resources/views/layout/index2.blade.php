@@ -67,9 +67,10 @@
           <li><a class="nav-link scrollto" href="{{route('Staff_register')}}"> RegisterStaff</a></li>
           <li><a class="nav-link scrollto" href="{{route('doctor_register')}}"> RegisterDoctor</a></li>
           <li><a class="nav-link scrollto" href="{{route('view_doctors')}}"> ViewDoctors</a></li>
-         
+          <li><a class="nav-link scrollto" href="{{route('staff_view')}}"> ViewStaff</a></li>
+          <li><a class="nav-link scrollto" href="{{route('logout')}}"> logout</a></li>        
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
       </nav><!-- .navbar -->
 
       <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
@@ -79,9 +80,9 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel"> -->
 
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
 
       <div class="carousel-inner" role="listbox">
 
@@ -92,7 +93,7 @@
           
         </div>
 
-        <!-- Slide 2 -->
+        <!-- Slide 2
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="container">
             <h2>Lorem Ipsum Dolor</h2>
@@ -102,7 +103,7 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
           <div class="container">
             <h2>Sequi ea ut et est quaerat</h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
@@ -120,8 +121,8 @@
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
 
-    </div>
-    
+    </div> -->
+     -->
   </section><!-- End Hero -->
 
   <main id="main">

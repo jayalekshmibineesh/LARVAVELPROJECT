@@ -18,16 +18,16 @@
                 @csrf
 
                 <div class="form-outline mb-4">
-                  <input type="text" id="form3Example1cg"name="name"  placeholder="EnterStaffname"class="form-control form-control-lg " />
-                  <input type="email" id="form3Example3cg"name="email" placeholder="Staff email"class="form-control form-control-lg" />
-                  <input type="password"name="password" id="form3Example4cg"placeholder="Enter Staff password" class="form-control form-control-lg" />
-                  <input type="text" name="username" id="form3Example4cdg" placeholder="Enter staff username"class="form-control form-control-lg" />
-                  <input type="text" name="type" id="form3Example4cdg" placeholder="Enter type"class="form-control form-control-lg" />
-                  <input type="file" name="image" id="form3Example4cdg"placeholder="Enter username" class="form-control form-control-lg" />
-                  
+                  <input type="text" id="form3Example1cg"name="name"  placeholder="EnterStaffname"class="form-control form-control-lg mt-2 " />
+                  <input type="email" id="form3Example3cg"name="email" placeholder="Staff email"class="form-control form-control-lg mt-2" />
+                  <input type="password"name="password" id="form3Example4cg"placeholder="Enter Staff password" class="form-control form-control-lg mt-2" />
+                  <input type="text" name="username" id="form3Example4cdg" placeholder="Enter staff username"class="form-control form-control-lg mt-2" />
+                  <input type="text" name="type" id="form3Example4cdg" placeholder="Enter type"class="form-control form-control-lg mt-2" />
+                  <input type="file" name="image" id="form3Example4cdg"placeholder="Enter username" class="form-control form-control-lg mt-2" />
+                  <br>
                                  
                 <div class="d-flex justify-content-center">
-                    <input type="submit" value="register" name="submit">
+                    <input class="btn btn-primary"type="submit" value="Register" name="submit">
                                   </div>
 
               </form>
