@@ -17,14 +17,15 @@ return new class extends Migration
             $table->bigincrements('patient_id');
             $table->string('patient_name');
             $table->string('department');
-            $table->string('doctor_id');
+            $table->string('doctor_name');
+            $table->date('date');
+            $table->time('time');
             $table->string('email');
             $table->string('place');
             $table->biginteger('contact');
             $table->string('gender');
             $table->integer('age');
-            $table->string('image');
-            $table->string('staff_id');
+            $table->integer('staff_id');
             $table->timestamps();
         });
     }

@@ -17,7 +17,7 @@
 
             <h3 class="mb-5"> Login Form</h3>
             <form action="{{ route('stafflog') }}" method="POST">
-               @csrf
+              @csrf
             <div class="form-outline mb-4">
               <input type="email"  name="email"id="typeEmailX-2" class="form-control form-control-lg" />
               <label class="form-label" for="typeEmailX-2">Username</label>

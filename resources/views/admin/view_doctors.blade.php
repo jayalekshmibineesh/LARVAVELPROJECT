@@ -15,12 +15,12 @@
 
         <table class="table table-bordered table-danger table-striped" style="width:80%;">
     <tr>
-    <th> doctor_name</th>
-    <th>specialisation</th>
-    <th>email</th>
-    <th>contact</th>
-     <th>time</th>
-    <th>image</th>
+    <th> Doctor_name</th>
+    <th>Specialisation</th>
+    <th>Email</th>
+    <th>Contact</th>
+     <th>Time</th>
+    <th>Image</th>
 
     <th colspan="2"> Action</th>
     </tr>

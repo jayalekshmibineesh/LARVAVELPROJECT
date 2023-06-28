@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class LoginController extends Controller
 {
     public function login()
     {
-      return view('login');  
+      return view('admin.login');  
     } 
     public function showlogin(Request $request)
     {
@@ -41,9 +42,15 @@ class LoginController extends Controller
     }
     public function staffhome()
     {
-      $user=Auth::user();
+      $user = Auth::user();
       return view('staff.staff_home',compact('user'));
     }
+    public function logout()
+   {
+
+    Auth::logout();
+    return redirect()->route('login');
+   }  
   }
 
 
